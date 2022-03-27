@@ -333,7 +333,8 @@ export class Parser {
 			case "pig":
 			case "plsql":
 			case "sql":
-				this.delimiter = "--";
+				//this.delimiter = "--";
+                		this.setCommentFormat("--", "/*", "*/");
 				break;
 			
 			case "lua":
