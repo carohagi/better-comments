@@ -332,6 +332,7 @@ export class Parser {
 			case "hive-sql":
 			case "pig":
 			case "plsql":
+            		case "oraclesql":
 			case "sql":
 				//this.delimiter = "--";
                 		this.setCommentFormat("--", "/*", "*/");
